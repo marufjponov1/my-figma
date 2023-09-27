@@ -1,0 +1,229 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: #014E56;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    left: 0;
+    right: 0;
+}
+
+.hero__page {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+.hero__page a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+}
+
+.hero__btn {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    margin-left: 500px;
+ } 
+ .hero__img {
+    margin-top: 60px;
+    margin-left: 555px;
+}
+
+.hero__center {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+ } 
+
+.hero__center h2 {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 64px;
+    margin-left: -100px;
+}
+
+.hero__center p {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.hero__form {
+    margin-left: 1249px;
+    margin-top: 4px;
+}
+
+.meet {
+    width: 100%;
+    height: 150vh;
+    background: #004047;
+}
+
+.meet__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+}
+
+.meet__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.meet_item {
+    width: 350px;
+    height: 210px;
+    border: 1px solid #002529;
+    text-align: center;
+    background-color: #002529;
+    margin-top: 10px;
+}
+
+.meet__foto {
+    margin-top: 10px;
+}
+
+.meet_item h4 {
+    margin-top: 10px;
+    color: #79C8C7;
+    font-family: Livvic;
+    font-size: 18px;
+}
+
+.meet_item i {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+}
+
+.meet_item span img {
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.meet_item p {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.meet__form {
+    margin-top: 20px;
+}
+
+.meet__img {
+    margin-top: 30px;
+}
+
+.meet__element {
+    margin-top: 15px;
+    margin-left: 1200px;
+}
+
+.some {
+    width: 100%;
+    height: 100vh;
+    background: #012F34;
+}
+
+.ready {
+    width: 100%;
+    height: 50vh;
+    background-color: #F67E7E;
+}
+
+.ready h2 {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    margin-top: -50px;
+    margin-left: 200px;
+}
+
+.ready__btn {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #012F34;
+    border-radius: 24px;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 1100px;
+}
+
+.ready img {
+    margin-top: -40px;
+}
+
+.contact {
+    width: 100%;
+    height: 50vh;
+    background: #002529;
+    padding: 100px 100px 10px;
+}
+
+.contact__item {
+    display: flex;
+    gap: 50px;
+    padding: 30px 0;
+}
+
+.contact__item a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+}
+
+.contact__infarmation p {
+    margin-left: 400px;
+    margin-top: -130px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.contact__img {
+    margin-left: 1000px;
+}
+
+.contact h4 {
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    padding: 10px;
+}
